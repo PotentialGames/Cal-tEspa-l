@@ -28982,7 +28982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a809589c91ff94db48c48f48b66415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpBox: 183
+  helpBox: 95
   ProductName: BRGAME
 --- !u!114 &1259182673
 MonoBehaviour:
