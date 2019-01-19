@@ -6,12 +6,23 @@ using UnityEngine.UI;
 
 public class vp_MP_BR_MainMenu : Photon.MonoBehaviour
 {
-    // Button/Text/InputFields
+    // Canvas
+    public Canvas CanvasMainMenu;
+    public Canvas CanvasOptionsMenu;
+    public Canvas CanvasCreditsMenu;
+
+    // Canvas Main Menu
     public InputField NameInputField;
     public Text Version;
 
-	// content
-	public Texture2D Splash = null;
+    // Canvas Options Menu
+
+    // Canvas Credits Menu
+    public Text CreditsText;
+    public Transform CreditsPosition;
+
+    // content
+    public Texture2D Splash = null;
 	public bool RequireSetName = false;
 	public Font BigFont;
 	public Font SmallFont;
@@ -425,9 +436,33 @@ public class vp_MP_BR_MainMenu : Photon.MonoBehaviour
         vp_BR_Gameplay.PlayerName = NameInputField.text;
     }
 
+    public void ButtonOptions()
+    {
+        CanvasOptionsMenu.gameObject.SetActive(true);
+        CanvasMainMenu.gameObject.SetActive(false);
+    }
+
+    public void ButtonCredits()
+    {
+        CanvasCreditsMenu.gameObject.SetActive(true);
+        CanvasMainMenu.gameObject.SetActive(false);
+        CreditsText.transform.position = CreditsPosition.transform.position;
+    }
+
     public void PressButtonQuit()
     {
         Application.Quit();
     }
 
+    public void ButtonOptionsBack()
+    {
+        CanvasOptionsMenu.gameObject.SetActive(false);
+        CanvasMainMenu.gameObject.SetActive(true);
+    }
+
+    public void ButtonCreditsBack()
+    {
+        CanvasCreditsMenu.gameObject.SetActive(false);
+        CanvasMainMenu.gameObject.SetActive(true);
+    }
 }

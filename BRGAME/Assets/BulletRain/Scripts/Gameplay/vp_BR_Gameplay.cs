@@ -19,7 +19,7 @@ using UnityEngine.SceneManagement;
 public class vp_BR_Gameplay
 {
 
-    public static string Version = "0.0.11";
+    public static string Version = "0.0.12";
     public static string PlayerName = "Xip";
 
     public static bool IsMultiplayer = false;
