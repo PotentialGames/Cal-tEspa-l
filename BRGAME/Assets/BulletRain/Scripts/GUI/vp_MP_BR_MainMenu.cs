@@ -6,8 +6,9 @@ using UnityEngine.UI;
 
 public class vp_MP_BR_MainMenu : Photon.MonoBehaviour
 {
-    public Image CanvasMainMenu;
-    public Text hello;
+    // Button/Text/InputFields
+    public InputField NameInputField;
+    public Text Version;
 
 	// content
 	public Texture2D Splash = null;
@@ -84,8 +85,10 @@ public class vp_MP_BR_MainMenu : Photon.MonoBehaviour
 	/// </summary>
 	protected virtual void Start()
 	{
+        Version.text = vp_BR_Gameplay.Version;
+        NameInputField.text = vp_BR_Gameplay.PlayerName; 
 
-		m_DefaultPlayerName = vp_Gameplay.PlayerName;
+        m_DefaultPlayerName = vp_BR_Gameplay.PlayerName;
 		m_DefaultStartButtonText = m_StartButtonText;
 		vp_MPConnection.StayConnected = false;
 		m_Quality = QualitySettings.GetQualityLevel();
@@ -120,14 +123,14 @@ public class vp_MP_BR_MainMenu : Photon.MonoBehaviour
 		if (PhotonNetwork.connectionStateDetailed == ClientState.Joined)
 			return;
 
-		GUI.Label(new Rect(10, Screen.height - 25, 100, 20), vp_Gameplay.Version);
+		GUI.Label(new Rect(10, Screen.height - 25, 100, 20), vp_BR_Gameplay.Version);
 
 		GUI.SetNextControlName("1");
 		Vector2 startPos = new Vector2((Screen.width / 2) - (Screen.width / 3.5f), (Screen.height / 2) - (Screen.height / 3.5f));
 		DrawButton(m_StartButtonText, startPos, new Vector2((Screen.width / 4), (Screen.height / 9)),
 			ButtonStyle, m_StartButtonColor, Color.clear, BgTexture, delegate()
 			{
-				if ((RequireSetName == true) && (vp_Gameplay.PlayerName == m_DefaultPlayerName))
+				if ((RequireSetName == true) && (vp_BR_Gameplay.PlayerName == m_DefaultPlayerName))
 				{
 					m_NameColor = Color.red;
 					vp_Timer.In(1, delegate()
@@ -155,9 +158,9 @@ public class vp_MP_BR_MainMenu : Photon.MonoBehaviour
 					Chat.enabled = true;
 					GUI.FocusControl("1");
 					m_UserPressedConnect = true;
-					while (vp_Gameplay.PlayerName.Length < 3)
+					while (vp_BR_Gameplay.PlayerName.Length < 3)
 					{
-						vp_Gameplay.PlayerName = "#" + vp_Gameplay.PlayerName;
+						vp_BR_Gameplay.PlayerName = "#" + vp_BR_Gameplay.PlayerName;
 					}
 				});
 			});
@@ -233,10 +236,10 @@ public class vp_MP_BR_MainMenu : Photon.MonoBehaviour
 	/// <summary>
 	/// globalevent target: returns player name chosen in the main menu
 	/// </summary>
-	[System.Obsolete("Please use 'vp_Gameplay.PlayerName' instead.")]
+	[System.Obsolete("Please use 'vp_BR_Gameplay.PlayerName' instead.")]
 	protected virtual string GetPlayerName()
 	{
-		return vp_Gameplay.PlayerName;
+		return vp_BR_Gameplay.PlayerName;
 	}
 	
 
@@ -317,11 +320,11 @@ public class vp_MP_BR_MainMenu : Photon.MonoBehaviour
 		GUI.color = textColor;
 		m_LabelRect.x = position.x + 5 + (m_LabelRect.width * 0.5f);
 
-		vp_Gameplay.PlayerName = GUI.TextField(m_LabelRect, vp_Gameplay.PlayerName, 16, LeftStyle);
-		vp_Gameplay.PlayerName = vp_Gameplay.PlayerName.Replace("\n", "");
-		vp_Gameplay.PlayerName = vp_Gameplay.PlayerName.Replace(".", "");
-		vp_Gameplay.PlayerName = vp_Gameplay.PlayerName.Replace(",", "");
-		vp_Gameplay.PlayerName = vp_Gameplay.PlayerName.Replace("|", "");
+		vp_BR_Gameplay.PlayerName = GUI.TextField(m_LabelRect, vp_BR_Gameplay.PlayerName, 16, LeftStyle);
+        vp_BR_Gameplay.PlayerName = vp_BR_Gameplay.PlayerName.Replace("\n", "");
+        vp_BR_Gameplay.PlayerName = vp_BR_Gameplay.PlayerName.Replace(".", "");
+        vp_BR_Gameplay.PlayerName = vp_BR_Gameplay.PlayerName.Replace(",", "");
+        vp_BR_Gameplay.PlayerName = vp_BR_Gameplay.PlayerName.Replace("|", "");
 		//Event e = Event.current;	// TODO: needed?
 		if (Event.current.keyCode == KeyCode.KeypadEnter || Event.current.keyCode == KeyCode.Return)
 			m_UserHasHitReturn = true;
@@ -419,7 +422,7 @@ public class vp_MP_BR_MainMenu : Photon.MonoBehaviour
 
     public void PlayerNameEND()
     {
-        //
+        vp_BR_Gameplay.PlayerName = NameInputField.text;
     }
 
     public void PressButtonQuit()
