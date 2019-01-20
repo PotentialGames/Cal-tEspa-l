@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: b39cbf01339a2724da59d27025d70c03
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box005
+    100002: Box006
+    100004: Box007
+    100006: Box011
+    100008: Cambio
+    100010: capo
+    100012: cuerpo
+    100014: Cylinder001
+    100016: Cylinder002
+    100018: Cylinder003
+    100020: Cylinder004
+    100022: Cylinder005
+    100024: Cylinder_010
+    100026: Cylinder_021_Cylinder_022
+    100028: GuardaBarro
+    100030: Intermitentes
+    100032: luces
+    100034: Object001
+    100036: ParaBrisas
+    100038: parrilla
+    100040: Rueda
+    100042: Rueda001
+    100044: RuedaRecambio
+    100046: SUELO
+    100048: Volante
+    100050: //RootNode
+    400000: Box005
+    400002: Box006
+    400004: Box007
+    400006: Box011
+    400008: Cambio
+    400010: capo
+    400012: cuerpo
+    400014: Cylinder001
+    400016: Cylinder002
+    400018: Cylinder003
+    400020: Cylinder004
+    400022: Cylinder005
+    400024: Cylinder_010
+    400026: Cylinder_021_Cylinder_022
+    400028: GuardaBarro
+    400030: Intermitentes
+    400032: luces
+    400034: Object001
+    400036: ParaBrisas
+    400038: parrilla
+    400040: Rueda
+    400042: Rueda001
+    400044: RuedaRecambio
+    400046: SUELO
+    400048: Volante
+    400050: //RootNode
+    2100000: 08 - Default
+    2100002: 07 - Default
+    2100004: 'Material #131'
+    2100006: 'Material #132'
+    2100008: 'Material #130'
+    2100010: 02 - Default
+    2100012: Object_9_mso
+    2100014: 03 - Default
+    2100016: 19 - Default
+    2100018: 16 - Default
+    2100020: No Name
+    2100022: 'Material #28'
+    2100024: 'Material #12508'
+    2100026: 'Material #12507'
+    2100028: 'Material #12510'
+    2100030: 'Material #12512'
+    2100032: 'Material #12509'
+    2100034: smpngn_Blk
+    2100036: smpngn_None
+    2100038: 13 - Default
+    2100040: 17 - Default
+    2100042: 14 - Default
+    2300000: Box005
+    2300002: Box006
+    2300004: Box007
+    2300006: Box011
+    2300008: Cambio
+    2300010: capo
+    2300012: cuerpo
+    2300014: Cylinder001
+    2300016: Cylinder002
+    2300018: Cylinder003
+    2300020: Cylinder004
+    2300022: Cylinder005
+    2300024: Cylinder_010
+    2300026: Cylinder_021_Cylinder_022
+    2300028: GuardaBarro
+    2300030: Intermitentes
+    2300032: luces
+    2300034: Object001
+    2300036: ParaBrisas
+    2300038: parrilla
+    2300040: Rueda
+    2300042: Rueda001
+    2300044: RuedaRecambio
+    2300046: SUELO
+    2300048: Volante
+    3300000: Box005
+    3300002: Box006
+    3300004: Box007
+    3300006: Box011
+    3300008: Cambio
+    3300010: capo
+    3300012: cuerpo
+    3300014: Cylinder001
+    3300016: Cylinder002
+    3300018: Cylinder003
+    3300020: Cylinder004
+    3300022: Cylinder005
+    3300024: Cylinder_010
+    3300026: Cylinder_021_Cylinder_022
+    3300028: GuardaBarro
+    3300030: Intermitentes
+    3300032: luces
+    3300034: Object001
+    3300036: ParaBrisas
+    3300038: parrilla
+    3300040: Rueda
+    3300042: Rueda001
+    3300044: RuedaRecambio
+    3300046: SUELO
+    3300048: Volante
+    4300000: Volante
+    4300002: GuardaBarro
+    4300004: Rueda
+    4300006: cuerpo
+    4300008: parrilla
+    4300010: luces
+    4300012: Intermitentes
+    4300014: Box005
+    4300016: Cylinder001
+    4300018: Cylinder002
+    4300020: Cylinder003
+    4300022: Box006
+    4300024: Cylinder004
+    4300026: capo
+    4300028: Rueda001
+    4300030: SUELO
+    4300032: ParaBrisas
+    4300034: Cambio
+    4300036: Box007
+    4300038: Object001
+    4300040: Cylinder005
+    4300042: Box011
+    4300044: Cylinder_021_Cylinder_022
+    4300046: Cylinder_010
+    4300048: RuedaRecambio
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

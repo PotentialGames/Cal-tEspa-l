@@ -72,4 +72,12 @@ MonoBehaviour:
   - Stop_Reload
   - Stop_Run
   - Stop_Zoom
+  - InstantiateItemAndRegisterPickup
+  - InventoryDroppedObject
+  - InventoryPlayerPickedUpItem
+  - LootableObjectItemRemoved
+  - OnTriggerUnUsedByOtherClient
+  - OnTriggerUsedByOtherClient
+  - RequestLootableItems
+  - SetLootableItems
   DisableAutoOpenWizard: 1

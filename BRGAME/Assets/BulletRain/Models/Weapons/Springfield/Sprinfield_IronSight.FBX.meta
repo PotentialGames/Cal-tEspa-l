@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 0f23b52759c9ba44abc2c821a9650d1d
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bala 7.62 (1)
+    100002: Bala 7.62 (2)
+    100004: Bala 7.62 (3)
+    100006: Boca
+    100008: "Ca\xF1on"
+    100010: Cerrojo001
+    100012: Culata + Cuerpo
+    100014: Enganche
+    100016: Gatillo
+    100018: Guardadedos
+    100020: Soporte de corredera
+    100022: //RootNode
+    400000: Bala 7.62 (1)
+    400002: Bala 7.62 (2)
+    400004: Bala 7.62 (3)
+    400006: Boca
+    400008: "Ca\xF1on"
+    400010: Cerrojo001
+    400012: Culata + Cuerpo
+    400014: Enganche
+    400016: Gatillo
+    400018: Guardadedos
+    400020: Soporte de corredera
+    400022: //RootNode
+    2100000: 'Material #17'
+    2300000: Bala 7.62 (1)
+    2300002: Bala 7.62 (2)
+    2300004: Bala 7.62 (3)
+    2300006: Boca
+    2300008: "Ca\xF1on"
+    2300010: Cerrojo001
+    2300012: Culata + Cuerpo
+    2300014: Enganche
+    2300016: Gatillo
+    2300018: Guardadedos
+    2300020: Soporte de corredera
+    3300000: Bala 7.62 (1)
+    3300002: Bala 7.62 (2)
+    3300004: Bala 7.62 (3)
+    3300006: Boca
+    3300008: "Ca\xF1on"
+    3300010: Cerrojo001
+    3300012: Culata + Cuerpo
+    3300014: Enganche
+    3300016: Gatillo
+    3300018: Guardadedos
+    3300020: Soporte de corredera
+    4300000: Culata + Cuerpo
+    4300002: Soporte de corredera
+    4300004: Enganche
+    4300006: Boca
+    4300008: "Ca\xF1on"
+    4300010: Guardadedos
+    4300012: Gatillo
+    4300014: Bala 7.62 (1)
+    4300016: Bala 7.62 (2)
+    4300018: Bala 7.62 (3)
+    4300020: Cerrojo001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #17'
+    second: {fileID: 2100000, guid: 4d6470864e5939a49b91b3fb83ad8925, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

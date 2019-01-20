@@ -62,7 +62,7 @@ public class vp_MPConnection : Photon.MonoBehaviour
 	{
 
 		Instance = this;
-		vp_Gameplay.IsMultiplayer = true;
+		vp_BR_Gameplay.IsMultiplayer = true;
 
 	}
 
@@ -74,7 +74,7 @@ public class vp_MPConnection : Photon.MonoBehaviour
 	{
 
 		Instance = null;
-		vp_Gameplay.IsMultiplayer = false;
+		vp_BR_Gameplay.IsMultiplayer = false;
 
 	}
 
@@ -263,7 +263,7 @@ public class vp_MPConnection : Photon.MonoBehaviour
 	protected virtual void Connect()
 	{
 
-		PhotonNetwork.ConnectUsingSettings(vp_Gameplay.Version);
+		PhotonNetwork.ConnectUsingSettings(vp_BR_Gameplay.Version);
 		m_LastClientState = ClientState.Uninitialized;
 
 	}
@@ -344,7 +344,7 @@ public class vp_MPConnection : Photon.MonoBehaviour
 	{
 
 		// update name of this player in the cloud
-		PhotonNetwork.player.NickName = vp_Gameplay.PlayerName;
+		PhotonNetwork.player.NickName = vp_BR_Gameplay.PlayerName;
 
 		//vp_MPDebug.Log("Total players using app: " + PhotonNetwork.countOfPlayers);
 		
@@ -388,7 +388,7 @@ public class vp_MPConnection : Photon.MonoBehaviour
 		if(FindObjectOfType<vp_MPMaster>())	// in rare cases there might not be a vp_MPMaster, for example: a chat lobby
 			photonView.RPC("RequestInitialSpawnInfo", PhotonTargets.MasterClient, PhotonNetwork.player, 0, name);
 
-		vp_Gameplay.IsMaster = PhotonNetwork.isMasterClient;
+		vp_BR_Gameplay.IsMaster = PhotonNetwork.isMasterClient;
 
 	}
 
@@ -402,7 +402,7 @@ public class vp_MPConnection : Photon.MonoBehaviour
 	void OnPhotonPlayerDisconnected(PhotonPlayer player)
 	{
 
-		vp_Gameplay.IsMaster = PhotonNetwork.isMasterClient;
+        vp_BR_Gameplay.IsMaster = PhotonNetwork.isMasterClient;
 
 		vp_MPDebug.Log(player.NickName + " left the game");	// NOTE: the 'joined' message is posted by vp_MPPlayerSpawner which has extended team info
 
