@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: a9507f154258a5c43991635eab10c868
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bala
+    100002: Cargador
+    100004: "Ca\xF1onDentro"
+    100006: //RootNode
+    100008: Corredera
+    100010: Detalle1
+    100012: Detalle2
+    100014: Detalle3
+    100016: "FrontalCa\xF1on"
+    100018: Gatillo
+    100020: Grip1
+    100022: Grip2
+    100024: GuardiaGatillo
+    100026: Martillo
+    100028: MiraDelantera
+    100030: MiraTrasera
+    100032: PanelLateral
+    100034: ParteAbajo
+    100036: Recamara
+    100038: Riel
+    100040: TapaRecamara
+    100042: TornilloDerecha
+    100044: TornilloIzquierda
+    400000: Bala
+    400002: Cargador
+    400004: "Ca\xF1onDentro"
+    400006: //RootNode
+    400008: Corredera
+    400010: Detalle1
+    400012: Detalle2
+    400014: Detalle3
+    400016: "FrontalCa\xF1on"
+    400018: Gatillo
+    400020: Grip1
+    400022: Grip2
+    400024: GuardiaGatillo
+    400026: Martillo
+    400028: MiraDelantera
+    400030: MiraTrasera
+    400032: PanelLateral
+    400034: ParteAbajo
+    400036: Recamara
+    400038: Riel
+    400040: TapaRecamara
+    400042: TornilloDerecha
+    400044: TornilloIzquierda
+    2100000: 'Material #27'
+    2300000: Bala
+    2300002: Cargador
+    2300004: "Ca\xF1onDentro"
+    2300006: Corredera
+    2300008: Detalle1
+    2300010: Detalle2
+    2300012: Detalle3
+    2300014: "FrontalCa\xF1on"
+    2300016: Gatillo
+    2300018: Grip1
+    2300020: Grip2
+    2300022: GuardiaGatillo
+    2300024: Martillo
+    2300026: MiraDelantera
+    2300028: MiraTrasera
+    2300030: PanelLateral
+    2300032: ParteAbajo
+    2300034: Recamara
+    2300036: Riel
+    2300038: TapaRecamara
+    2300040: TornilloDerecha
+    2300042: TornilloIzquierda
+    3300000: Bala
+    3300002: Cargador
+    3300004: "Ca\xF1onDentro"
+    3300006: Corredera
+    3300008: Detalle1
+    3300010: Detalle2
+    3300012: Detalle3
+    3300014: "FrontalCa\xF1on"
+    3300016: Gatillo
+    3300018: Grip1
+    3300020: Grip2
+    3300022: GuardiaGatillo
+    3300024: Martillo
+    3300026: MiraDelantera
+    3300028: MiraTrasera
+    3300030: PanelLateral
+    3300032: ParteAbajo
+    3300034: Recamara
+    3300036: Riel
+    3300038: TapaRecamara
+    3300040: TornilloDerecha
+    3300042: TornilloIzquierda
+    4300000: ParteAbajo
+    4300002: MiraDelantera
+    4300004: MiraTrasera
+    4300006: Grip1
+    4300008: Grip2
+    4300010: GuardiaGatillo
+    4300012: Gatillo
+    4300014: Detalle3
+    4300016: Detalle2
+    4300018: Detalle1
+    4300020: Martillo
+    4300022: TornilloIzquierda
+    4300024: TornilloDerecha
+    4300026: Riel
+    4300028: "FrontalCa\xF1on"
+    4300030: Cargador
+    4300032: Bala
+    4300034: PanelLateral
+    4300036: TapaRecamara
+    4300038: Corredera
+    4300040: Recamara
+    4300042: "Ca\xF1onDentro"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
