@@ -1,77 +1,52 @@
 fileFormatVersion: 2
-guid: 50e272c9d43da964fbb137a9706238b0
+guid: 2246f169e08a4724098b7e43d198291c
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Bala 7.62 (1)
-    100002: Bala 7.62 (2)
-    100004: Bala 7.62 (3)
-    100006: Boca
-    100008: "Ca\xF1on"
-    100010: Cerrojo001
-    100012: Culata + Cuerpo
-    100014: Enganche
-    100016: Gatillo
-    100018: Guardadedos
-    100020: Mira optica
-    100022: Soporte de corredera
-    100024: //RootNode
-    400000: Bala 7.62 (1)
-    400002: Bala 7.62 (2)
-    400004: Bala 7.62 (3)
-    400006: Boca
-    400008: "Ca\xF1on"
-    400010: Cerrojo001
-    400012: Culata + Cuerpo
-    400014: Enganche
-    400016: Gatillo
-    400018: Guardadedos
-    400020: Mira optica
-    400022: Soporte de corredera
-    400024: //RootNode
-    2100000: 'Material #17'
-    2300000: Bala 7.62 (1)
-    2300002: Bala 7.62 (2)
-    2300004: Bala 7.62 (3)
-    2300006: Boca
-    2300008: "Ca\xF1on"
-    2300010: Cerrojo001
-    2300012: Culata + Cuerpo
-    2300014: Enganche
-    2300016: Gatillo
-    2300018: Guardadedos
-    2300020: Mira optica
-    2300022: Soporte de corredera
-    3300000: Bala 7.62 (1)
-    3300002: Bala 7.62 (2)
-    3300004: Bala 7.62 (3)
-    3300006: Boca
-    3300008: "Ca\xF1on"
-    3300010: Cerrojo001
-    3300012: Culata + Cuerpo
-    3300014: Enganche
-    3300016: Gatillo
-    3300018: Guardadedos
-    3300020: Mira optica
-    3300022: Soporte de corredera
-    4300000: Culata + Cuerpo
-    4300002: Soporte de corredera
-    4300004: Enganche
-    4300006: Boca
-    4300008: "Ca\xF1on"
-    4300010: Guardadedos
-    4300012: Gatillo
-    4300014: Bala 7.62 (1)
-    4300016: Mira optica
-    4300018: Bala 7.62 (2)
-    4300020: Bala 7.62 (3)
-    4300022: Cerrojo001
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #17'
-    second: {fileID: 2100000, guid: 4d6470864e5939a49b91b3fb83ad8925, type: 2}
+    100000: Cartucho 12 (1)
+    100002: Cartucho 12 (2)
+    100004: "Ca\xF1on"
+    100006: "Culata/Empu\xF1adura"
+    100008: //RootNode
+    100010: Gatillo
+    100012: Palanquilla
+    100014: Percutor L
+    100016: Percutor R
+    400000: Cartucho 12 (1)
+    400002: Cartucho 12 (2)
+    400004: "Ca\xF1on"
+    400006: "Culata/Empu\xF1adura"
+    400008: //RootNode
+    400010: Gatillo
+    400012: Palanquilla
+    400014: Percutor L
+    400016: Percutor R
+    2100000: 'Material #175'
+    2300000: Cartucho 12 (1)
+    2300002: Cartucho 12 (2)
+    2300004: "Ca\xF1on"
+    2300006: "Culata/Empu\xF1adura"
+    2300008: Gatillo
+    2300010: Palanquilla
+    2300012: Percutor L
+    2300014: Percutor R
+    3300000: Cartucho 12 (1)
+    3300002: Cartucho 12 (2)
+    3300004: "Ca\xF1on"
+    3300006: "Culata/Empu\xF1adura"
+    3300008: Gatillo
+    3300010: Palanquilla
+    3300012: Percutor L
+    3300014: Percutor R
+    4300000: "Culata/Empu\xF1adura"
+    4300002: "Ca\xF1on"
+    4300004: Cartucho 12 (1)
+    4300006: Cartucho 12 (2)
+    4300008: Gatillo
+    4300010: Percutor R
+    4300012: Palanquilla
+    4300014: Percutor L
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

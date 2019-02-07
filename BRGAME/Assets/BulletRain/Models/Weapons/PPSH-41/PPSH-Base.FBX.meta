@@ -1,72 +1,32 @@
 fileFormatVersion: 2
-guid: aebfceb370579e24d9eb531966909bf6
+guid: 5bc13540491d7b246836dbe809da889c
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Bala 7.62 (1)
-    100002: Bala 7.62 (2)
-    100004: Bala 7.62 (3)
-    100006: "Ca\xF1on"
-    100008: Cerrojo
-    100010: Culata + Cuerpo
-    100012: Gatillo
-    100014: Guardadedos
-    100016: //RootNode
-    100018: Mira hierro
-    100020: Mira Telescopica
-    100022: Soporte de corredera
-    400000: Bala 7.62 (1)
-    400002: Bala 7.62 (2)
-    400004: Bala 7.62 (3)
-    400006: "Ca\xF1on"
-    400008: Cerrojo
-    400010: Culata + Cuerpo
-    400012: Gatillo
-    400014: Guardadedos
-    400016: //RootNode
-    400018: Mira hierro
-    400020: Mira Telescopica
-    400022: Soporte de corredera
-    2100000: 'Material #17'
-    2300000: Bala 7.62 (1)
-    2300002: Bala 7.62 (2)
-    2300004: Bala 7.62 (3)
-    2300006: "Ca\xF1on"
-    2300008: Cerrojo
-    2300010: Culata + Cuerpo
-    2300012: Gatillo
-    2300014: Guardadedos
-    2300016: Mira hierro
-    2300018: Mira Telescopica
-    2300020: Soporte de corredera
-    3300000: Bala 7.62 (1)
-    3300002: Bala 7.62 (2)
-    3300004: Bala 7.62 (3)
-    3300006: "Ca\xF1on"
-    3300008: Cerrojo
-    3300010: Culata + Cuerpo
-    3300012: Gatillo
-    3300014: Guardadedos
-    3300016: Mira hierro
-    3300018: Mira Telescopica
-    3300020: Soporte de corredera
-    4300000: Culata + Cuerpo
-    4300002: Soporte de corredera
-    4300004: "Ca\xF1on"
-    4300006: Guardadedos
-    4300008: Gatillo
-    4300010: Bala 7.62 (1)
-    4300012: Cerrojo
-    4300014: Mira hierro
-    4300016: Mira Telescopica
-    4300018: Bala 7.62 (2)
-    4300020: Bala 7.62 (3)
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #17'
-    second: {fileID: 2100000, guid: 4d6470864e5939a49b91b3fb83ad8925, type: 2}
+    100000: Cargador de tambor
+    100002: Corredera
+    100004: Culata
+    100006: Gatillo
+    100008: //RootNode
+    400000: Cargador de tambor
+    400002: Corredera
+    400004: Culata
+    400006: Gatillo
+    400008: //RootNode
+    2100000: 'Material #2'
+    2300000: Cargador de tambor
+    2300002: Corredera
+    2300004: Culata
+    2300006: Gatillo
+    3300000: Cargador de tambor
+    3300002: Corredera
+    3300004: Culata
+    3300006: Gatillo
+    4300000: Culata
+    4300002: Cargador de tambor
+    4300004: Gatillo
+    4300006: Corredera
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

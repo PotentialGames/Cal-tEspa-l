@@ -1,72 +1,34 @@
 fileFormatVersion: 2
-guid: 26e5d28b6b073dd4ca702b078d0084f1
+guid: fdce5bf8e04d42d4fb4ebc87f88f44e1
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Bala
-    100002: Cargador de tambor
-    100004: "Ca\xF1on"
-    100006: Corredera
-    100008: Cuerpo
-    100010: Culata
-    100012: Gatillo
-    100014: Guardadedos
-    100016: Guardamanos
-    100018: Mira
-    100020: Palanca de recarga
-    100022: //RootNode
-    400000: Bala
-    400002: Cargador de tambor
-    400004: "Ca\xF1on"
-    400006: Corredera
-    400008: Cuerpo
-    400010: Culata
-    400012: Gatillo
-    400014: Guardadedos
-    400016: Guardamanos
-    400018: Mira
-    400020: Palanca de recarga
-    400022: //RootNode
+    100000: Cargador de tambor
+    100002: Corredera
+    100004: Culata
+    100006: Gatillo
+    100008: //RootNode
+    400000: Cargador de tambor
+    400002: Corredera
+    400004: Culata
+    400006: Gatillo
+    400008: //RootNode
     2100000: 'Material #2'
-    2300000: Bala
-    2300002: Cargador de tambor
-    2300004: "Ca\xF1on"
-    2300006: Corredera
-    2300008: Cuerpo
-    2300010: Culata
-    2300012: Gatillo
-    2300014: Guardadedos
-    2300016: Guardamanos
-    2300018: Mira
-    2300020: Palanca de recarga
-    3300000: Bala
-    3300002: Cargador de tambor
-    3300004: "Ca\xF1on"
-    3300006: Corredera
-    3300008: Cuerpo
-    3300010: Culata
-    3300012: Gatillo
-    3300014: Guardadedos
-    3300016: Guardamanos
-    3300018: Mira
-    3300020: Palanca de recarga
+    2300000: Cargador de tambor
+    2300002: Corredera
+    2300004: Culata
+    2300006: Gatillo
+    3300000: Cargador de tambor
+    3300002: Corredera
+    3300004: Culata
+    3300006: Gatillo
     4300000: Culata
     4300002: Cargador de tambor
-    4300004: Guardadedos
-    4300006: Gatillo
-    4300008: Palanca de recarga
-    4300010: Cuerpo
-    4300012: "Ca\xF1on"
-    4300014: Guardamanos
-    4300016: Mira
-    4300018: Corredera
-    4300020: Bala
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #2'
-    second: {fileID: 2100000, guid: 4d6470864e5939a49b91b3fb83ad8925, type: 2}
+    4300004: Gatillo
+    4300006: Corredera
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -141,7 +103,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
